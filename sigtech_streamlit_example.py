@@ -8,7 +8,7 @@ import os
 
 # initialize environment and session
 
-st.set_page_config(layout='wide')
+st.set_page_config(page_title='SigTech API Example',layout='wide')
 st.title("SigTech API Example")
 st.markdown('''### Here's an example on how to leverage SigTech's API for finding asset performance, [more info here.](https://github.com/SIGTechnologies/sigtech-python)''')
 
