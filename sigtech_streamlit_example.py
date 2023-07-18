@@ -21,7 +21,6 @@ assets = {
 "U.S. Dollar Index Futures":"DX CURNCY",
 "British Pound Futures":"BP CURNCY",
 "US 10 Year Treasury Futures":"TY COMDTY",
-"Natural Gas Futures":"NG COMDTY",
 "30 Day Federal Fund Futures":"FF COMDTY"
 }
 
@@ -32,6 +31,7 @@ with st.sidebar:
     sig_key = st.text_input("SigTech API Key")
 
 if sig_key:
+    
     st.text('Select two assets you would like to compare their performance since a certain date.')
 
     os.environ['SIGTECH_API_KEY'] = sig_key
